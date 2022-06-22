@@ -37,8 +37,6 @@ Our goal is to find details in image that has high illumination. As you can see 
 orginal image             |  image number 3, using s=5 and m=24
 :-------------------------:|:-------------------------:
 ![](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)  |  ![](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/3.jpg)
-![alt text]()
-
 
 ## Donate us
 If you like our project and it's useful, feel free to donate us.
