@@ -32,7 +32,10 @@ m = 240;
 p4 = 1./(1+(m./(double(im)+eps)).^s);
 ```
 
-Our goal is finding ditails in image that has difrenet ilumination in difreent erea of image. as you
+Our goal is finding ditails in image that has difrenet ilumination in difreent erea of image. as you can see, in the picture the erea of image in window has high illumination an we can't see ditails.
 
+![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
 
+ aftter applyp Contrast Stretching we can see some ditails.
+ 
 ![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
