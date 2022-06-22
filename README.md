@@ -1,14 +1,14 @@
 # Contrast_Stretching
 
-Here is an impelementation of Contrast Stretching with diffrenet parameters.
+Here is an implementation of Contrast Stretching with different parameters.
 
 ## How it works
 
-Contrast Stretching is a technique with formalla as follow:
+Contrast Stretching is an image processing technique with a formula as follow:
 
 $ newimg = {1 \over {1 + ({m \over img})^s}} $
 
-Here "img" is orginal image. "m" and "s" are parameters. After read the image file, we apply Contrast Stretching formula with differnt valuse for "m" and "s" parametes as follow:
+Here "img" is the original image. "m" and "s" are parameters. After the code read the image file, we apply the Contrast Stretching formula with different values for "m" and "s" parameters as follow:
 
 ```matlab
 s = 5;
@@ -32,10 +32,10 @@ m = 240;
 p4 = 1./(1+(m./(double(im)+eps)).^s);
 ```
 
-Our goal is finding ditails in image that has difrenet ilumination in difreent erea of image. as you can see, in the picture the erea of image in window has high illumination an we can't see ditails.
+Our goal is to find details in image that has high illumination. As you can see in the picture, the area of the image in the window has high illumination, an we can't see details.
 
 ![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
 
- After applyp Contrast Stretching we can see some ditails.This is image number 3 with using s=5 and m=24.
+After apply the Contrast Stretching we can see some ditails in the window. Here is image number 3 with using s=5 and m=24.
  
 ![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/3.jpg)
