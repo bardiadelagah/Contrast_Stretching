@@ -36,6 +36,6 @@ Our goal is finding ditails in image that has difrenet ilumination in difreent e
 
 ![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
 
- aftter applyp Contrast Stretching we can see some ditails.
+ After applyp Contrast Stretching we can see some ditails.This is image number 3 with using s=5 and m=24.
  
-![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
+![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/3.jpg)
