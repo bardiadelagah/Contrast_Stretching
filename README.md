@@ -32,13 +32,13 @@ m = 240;
 p4 = 1./(1+(m./(double(im)+eps)).^s);
 ```
 
-Our goal is to find details in image that has high illumination. As you can see in the picture, the area of the image in the window has high illumination, an we can't see details.
+Our goal is to find details in image that has high illumination. As you can see in the picture, the area of the image in the window has high illumination, an we can't see details. After apply the Contrast Stretching we can see some ditails in the window. Here is image number 3 with using s=5 and m=24.
 
-![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
+orginal image             |  image number 3, using s=5 and m=24
+:-------------------------:|:-------------------------:
+![](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)  |  ![](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/3.jpg)
+![alt text]()
 
-After apply the Contrast Stretching we can see some ditails in the window. Here is image number 3 with using s=5 and m=24.
- 
-![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/3.jpg)
 
 ## Donate us
 If you like our project and it's useful, feel free to donate us.
