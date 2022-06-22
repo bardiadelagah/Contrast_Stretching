@@ -35,4 +35,4 @@ p4 = 1./(1+(m./(double(im)+eps)).^s);
 Our goal is finding ditails in image that has difrenet ilumination in difreent erea of image. as you
 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/bardiadelagah/Contrast_Stretching/blob/main/9.jpg)
